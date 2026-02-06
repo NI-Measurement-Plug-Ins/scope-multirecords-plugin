@@ -22,7 +22,6 @@
 				<Property Name="App_INI_GUID" Type="Str">{689A726D-540E-4D3D-85FE-31D13F53506B}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A14FD536-DC33-402B-B734-E373F193BBA7}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Ni-Scope-Multirecords</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -34,6 +33,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Ni-Scope-Multirecords.lvclass/Framework Defined/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{16C8F12D-E65F-43B2-90E2-1B8EEED19581}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Ni-Scope-Multirecords.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Ni-Scope-Multirecords/Ni-Scope-Multirecords.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -41,7 +41,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Ni-Scope-Multirecords/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{ABF36ECF-8654-4188-AC2E-C98B0E12CFD4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C05944B7-0208-4B75-A440-F5D85842D83E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Ni-Scope-Multirecords.lvclass/Run Service.vi</Property>
@@ -62,7 +62,6 @@
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Ni-Scope-Multirecords UI" Type="Packed Library">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{6C90712F-3818-417B-896E-903B543F638C}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Ni-Scope-Multirecords UI</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -71,8 +70,8 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{579F3586-82CB-4116-9D49-4C2BD091D820}</Property>
-				<Property Name="Bld_version.build" Type="Int">32</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Ni-Scope-Multirecords UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Ni-Scope-Multirecords/BuiltUI/Ni-Scope-Multirecords UI.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -83,7 +82,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{ABF36ECF-8654-4188-AC2E-C98B0E12CFD4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C05944B7-0208-4B75-A440-F5D85842D83E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Ni-Scope-Multirecords UI.lvlib</Property>
