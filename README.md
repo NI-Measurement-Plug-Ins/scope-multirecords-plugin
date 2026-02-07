@@ -1,11 +1,12 @@
-# NI-Scope-Multirecords-Plugin
+# NI Scope Multirecords Plugin
 ## Overview
 NI Scope Multi-Records Panel allows you to record multiple waveforms based on the trigger setting in the NI-Scope Configuration file.
+Only support single instrument session (allow multiple channels, but all must be within one single instrument).
 
 ![NI Scope Multi-Records Panel](./picture/Panel1.png)
 
 ## Tips
-Use the NI Scope front panel to adjust the desired settings and export as .niscopeconfig file (Gear >> Export >> Driver Configuration).
+First, use the normal NI Scope front panel to adjust the desired scope settings and export as .niscopeconfig file (Gear >> Export >> Driver Configuration).
 
 ![Export scope config](./picture/Export%20Scope%20Config.png)
 
@@ -14,6 +15,9 @@ Then, use the NI Scope Multi-Records Panel to load the configuration file. Set t
 The **Reference Position** will adjust the proportion of pre-trigger and post-trigger samples in each record. 
 
 The **Crop** will reduce the waveform duration in the ratio against original waveform duration. That means 100% = No waveform cropping. 
+
+Use the right click >> Export feature of LabVIEW graph to export records into other formats:
+![Export records](./picture/Export%20Records%20to%20Files.png)
 
 ## Software Dependencies
 - InstrumentStudio Pro (2025 Q4 or higher)
