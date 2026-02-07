@@ -1,4 +1,4 @@
-# Ni-Scope-Multirecords-Plugin
+# NI-Scope-Multirecords-Plugin
 ## Overview
 NI Scope Multi-Records Panel allows you to record multiple waveforms based on the trigger setting in the NI-Scope Configuration file.
 

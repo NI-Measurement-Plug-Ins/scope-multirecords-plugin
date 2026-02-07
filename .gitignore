@@ -1,18 +1,19 @@
-# Libraries
-*.lvlibp
-*.llb
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-
-# Metadata
+# LabVIEW project temporary files.
 *.aliases
 *.lvlps
-.cache/
 *.lvprojstate
+
+#LabVIEW builds
+[Bb]uild/
+[Bb]uilds/
+
+#Package builder
+[Pp]ackages/
+ProcessingStage/
+
+#InstrumentStudio
+*.[Cc]ache/
+
+# Executables and packed libraries
+*.exe
+*.lvlibp
