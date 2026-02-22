@@ -33,7 +33,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Ni-Scope-Multirecords.lvclass/Framework Defined/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{16C8F12D-E65F-43B2-90E2-1B8EEED19581}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">Ni-Scope-Multirecords.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Ni-Scope-Multirecords/Ni-Scope-Multirecords.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -41,7 +41,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Ni-Scope-Multirecords/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C05944B7-0208-4B75-A440-F5D85842D83E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8E665856-347E-418D-8911-57539EE7A7AA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Ni-Scope-Multirecords.lvclass/Run Service.vi</Property>
@@ -71,7 +71,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{579F3586-82CB-4116-9D49-4C2BD091D820}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">Ni-Scope-Multirecords UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Ni-Scope-Multirecords/BuiltUI/Ni-Scope-Multirecords UI.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -82,7 +82,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C05944B7-0208-4B75-A440-F5D85842D83E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8E665856-347E-418D-8911-57539EE7A7AA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Ni-Scope-Multirecords UI.lvlib</Property>
