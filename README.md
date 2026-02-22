@@ -22,4 +22,4 @@ Use the right click >> Export feature of LabVIEW graph to export records into ot
 ## Software Dependencies
 - InstrumentStudio Pro (2025 Q4 or higher)
 - NI-SCOPE (2025 Q4 or higher)
-- LabVIEW (2025 Q4 or higher)
+- LabVIEW (2025 Q3 or higher)
