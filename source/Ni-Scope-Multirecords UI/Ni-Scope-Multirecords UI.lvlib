@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Export Data to TDMS.vi" Type="VI" URL="../SubVIs/Export Data to TDMS.vi"/>
+		<Item Name="Get Configuration in File.vi" Type="VI" URL="../SubVIs/Get Configuration in File.vi"/>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>
