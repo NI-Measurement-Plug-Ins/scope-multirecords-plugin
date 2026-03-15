@@ -15,20 +15,26 @@ First, use the normal NI Scope front panel to adjust the desired scope settings 
 
 ![Export scope config](./picture/Export%20Scope%20Config.png)
 
-Then, use the NI Scope Multi-Records Panel to load the configuration file. Set the desired **Number of Records** to repeat the acquisition. Adjust the **Trigger Position** and **Record Length**,  to overwrite the original settings.
+Then, use the NI Scope Multi-Records Panel to load the configuration file (**Configuration File Path**). Set the desired **Number of Records** to repeat the acquisition. Adjust the **Horizontal Position** and **Record Length**,  to overwrite the original settings.
 
-### Change Configuration of **Trigger Position** and **Record Length**
+### Change Configuration of **Horizontal Position** and **Record Length**
 
-When **Delay Mode** On, the **Trigger Position** will be in seconds to configure the Trigger Delay. When **Delay Mode** Off, the **Trigger Position** will be in percentage to confiugre the Reference Position - proportion of pre-trigger samples vs post-trigger samples.
+When **Delay Mode** On, the **Horizontal Position** will be in seconds to configure the Trigger Delay. When **Delay Mode** Off, the **Horizontal Position** will be in percentage to confiugre the Reference Position - proportion of pre-trigger samples vs post-trigger samples. To find these settings on NI Scope native soft front panel, click the **...** button >> **Horizontal**. By default, the **Delay Mode** is On. 
+
+![Delay Mode setting on the NI Scope front panel](./picture/DelayModeOnScopeSFP.png)
 
 The unit of **Record Length** can be either percentage or seconds. When **Length Unit** is Percentage, 100% is the original record length. When **Length Unit** is seconds, you can set to any positive value for exact length in time, or set to zero or less to use the original record length.
 
-### Export Records or Stream Records to File
+You can also read the **Horizontal Position** and **Record Length** settings from the configuration file. Click the **Get Configuration in File** button to reset the settings on the panel. 
 
-A quick way to export records shown on the graph is by right clicking it >> Export feature of LabVIEW graph to export records into other formats:
+![Get Configuration in File button](./picture/GetConfigInFileButton.png)
+
+### Export Displayed Data or Stream Records to File
+
+A quick way to export records shown on the graph is by right clicking it >> **Export** feature of LabVIEW graph to export records into other formats:
 ![Export records](./picture/Export%20Records%20to%20Files.png)
 
-However, the graph on the panel will only display the latest 10 records of all channels. To ensure all the records are saved, specify the **Stream To File Path** to a new or existing TDMS file.
+However, the graph on the panel will  **only display the latest 10 records of all channels**. To ensure all the records are saved, specify the **Stream To File Path** to a new or existing TDMS file.
 
 Following shows an example of the TDMS group and channel names after save records into file:
 ![TMDS Structure](./picture/TdmsExportStructure.png)
